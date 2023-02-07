@@ -32,11 +32,12 @@ public:
 		pri = new int[maxSize];
 		inqueue = 0;
 		statsize = 0;
+		statistics = nullptr;
 	}
 
 	~QueuePri()
 	{
-		//удаление очереди
+		//ГіГ¤Г Г«ГҐГ­ГЁГҐ Г®Г·ГҐГ°ГҐГ¤ГЁ
 		delete[] queue;
 		delete[] pri;
 		delete[] statistics;
